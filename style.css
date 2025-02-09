@@ -977,5 +977,6 @@ footer{
     footer{
         height: 3.5vh;
         font-size: 0.55rem;
+        padding: 5px;
     }
 }
