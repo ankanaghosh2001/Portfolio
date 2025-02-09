@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankana's Portfolio</title>
+    <link rel="icon" type="assets/my-icon" href="assets/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <!-- <img src="./assets/favicon-32x32.png" alt="A-icon"> -->
+                <!-- <h3>Ankana's Portfolio Website</h3> -->
+            </div>
+            <div class="menu">
+                <ul id="menu-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <a href="#" id="hamburger" class="mobile-toggle" onclick="toggleMenu()"><img src="./assets/hamburger.svg" alt="menu"></a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="landingPage" id="home">
+            <div class="landingText">
+                Hi, I'm <p>Ankana Ghosh</p>
+                <span id="element"></span>
+                <br>
+                <button><a href="https://github.com/ankanaghosh2001">View Github</a></button>
+                <button id="cv"><a href="./AnkanaGhoshResume.pdf" download="Resume of Ankana Ghosh">Download CV</a></button>
+            </div>
+            <div class="landingImage">
+                <img src="./assets/my_pic_canva.jpg" alt="Intro Image">
+            </div>
+        </div>
+
+        <div class="aboutMe" id="aboutMe">
+            <div class="heading" align="center">About Me</div>
+            <div class="container">
+                <div class="skills">
+                    <div class="techSkills">
+                        <h3>Technical Skills</h3><br>
+                        <div class="frontend">
+                            <h3>Frontend : </h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="backend">
+                            <h3>Backend : </h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                        <div class="database">
+                            <h3>Database : </h3>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>Oracle</li>
+                            </ul>
+                        </div>
+                        <div class="frameworks">
+                            <h3>Frameworks : </h3>
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Tailwind CSS</li>
+                            </ul>
+                        </div>
+                        <div class="vcs">
+                            <h3>Version Control System : </h3>
+                            <ul>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                        <div class="programming">
+                            <h3>Programming Languages : </h3>
+                            <ul>
+                                <li>C</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr><br>
+                    <div class="languageSkills">
+                        <h3>Linguistic Skills</h3><br>
+                        <ul>
+                            <li>Bengali</li>
+                            <li>English</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aboutText">
+                    <h3>A Bit About Myself</h3><hr><br>
+                    <!-- <h1>I'm a <span>Full-Stack Web Developer</span></h1> -->
+                    <p><b>I’m a passionate full-stack web developer with a love for creativity beyond just coding. With a strong foundation in backend and frontend web technologies, I enjoy creating efficient and impactful(beautiful too😉💕) websites. Beyond coding, I’m always looking for new ways to grow and express creativity.
+                        <br><br>
+                        Outside of coding, you’ll find me:
+                        <br>
+                        🎶 Singing my heart out — my evergreen passion!
+                        <br>
+                        ✍️Writing stories and thoughts, letting imagination flow.
+                        <br>
+                        📚 Getting lost in storybooks, indulged in my delusion.
+                        <br>
+                        🗼 Exploring the beauty of the French language.
+                        <br>
+                        🍳 Experimenting in the kitchen, because good food makes everything better!
+                        <br><br>
+                        <i>Let’s build, learn, and create together! 🚀</i></b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="education" id="education">
+            <div class="heading" align="center">Education</div>
+            <div class="educational-institutes" align="center">
+                <article class="ten">
+                    <figure>
+                        <div class="ed-1">
+                            <img src="./assets/debiswari.jpg" alt="secondary school image">
+                            <figcaption><small>Debiswari Vidya Niketan</small></figcaption>
+                        </div>
+                    </figure>
+                    <div class="year">2017-2018</div>
+                    <p>I pursued my secondary schooling from Debiswari Vidya Niketan. I secured <span>89.7% marks</span> in my class 10th boards exam.</p>
+                </article>
+                <article class="twelve">
+                    <figure>
+                        <div class="ed-2">
+                            <img src="./assets/bhs.jpeg" alt="higher-secondary school image">
+                            <figcaption><small>Belur High School(HS)</small></figcaption>
+                        </div>
+                    </figure>
+                    <div class="year">2018-2020</div>
+                    <p>I pursued my higher secondary schooling from Belur High School. I secured <span>86.8% marks(PCM)</span> in my class 12th boards exam.</p>
+                </article>
+                <article class="grad">
+                    <figure>
+                        <div class="ed-3">
+                            <img src="./assets/bkgc.webp" alt="college image">
+                            <figcaption><small>Bijoy Krishna Girls' College</small></figcaption>
+                        </div>
+                    </figure>
+                    <div class="year">2020-2023</div>
+                    <p>I pursued my Bachelor's of Science degree on Computer Science from Bijoy Krishna Girls' College. I secured <span>8.805 CGPA</span> in my graduation.</p>
+                </article>
+                <article class="pGrad">
+                    <figure>
+                        <div class="ed-4">
+                            <img src="./assets/cu.jpg" alt="university image">
+                            <figcaption><small>University of Calcutta</small></figcaption>
+                        </div>
+                    </figure>
+                    <div class="year">2023-Present</div>
+                    <p>I am currently pursuing my Master's of Science degree on Computer Science from University of Calcutta (Technology Campus). I secured <span>8.4 SGPA</span> in 1st sem and <span>9.6 SGPA</span> in 2nd sem.</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <div class="heading">
+                My Projects
+            </div>
+            <div class="projects-list">
+                <div class="project1" align="center">
+                    <img src="./assets/facialRecognition.jpg" alt="facial recognition image">
+                    <br>
+                    <a href="https://github.com/ankanaghosh2001/Facial-Recognition-Based-Attendance-System"><h3>Facial Recognition Based Attendance System </h3><img src="./assets/github.svg" alt="github"></a>
+                    <p>
+                    This project is a facial recognition-based attendance system with admin access to view attendance logs. Students can enroll in the system and mark their attendance using facial recognition.
+                    </p>
+                </div>
+                <div class="project2" align="center">
+                    <img src="./assets/marks-submission.webp" alt="marks submission system image">
+                    <br>
+                    <a href="https://github.com/ankanaghosh2001/Marks-Submission-System-Java"><h3>Marks Submission System </h3><img src="./assets/github.svg" alt="github"></a>
+                    <p>
+                        A simple system to maintain a database of marks in a institution.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="heading">Contact Me</div>
+            <div class="container">
+                <form id="contact-form">
+                    <div class="left">
+                        <input type="text" name="from_name" id="your-name" placeholder="Enter Your Name" required>
+                        <input type="email" name="reply_to" id="your-mail" placeholder="Enter Your E-mail" required>
+                        <textarea name="message" id="your-message" placeholder="Enter Your Message" required></textarea>
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerText">
+            <small>Portfolio Website by Ankana Ghosh. Copyright ©️ 2025</small>
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
